@@ -1,0 +1,44 @@
+
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 3em;
+}
+
+h1 {
+  text-align: center;
+  color: crimson;
+  font-size: 5em;
+}
+
+label {
+  padding-left: 25px;
+  padding-right: 7px;
+}
+
+#new-player-form {
+  margin: 2em auto;
+  border: 2px solid crimson;
+  padding: 2em;
+  width: fit-content;
+  justify-content: center;
+ 
+}
+
+#singleHolder {
+  position: absolute;
+  left: 5%;
+}
+
+#popUp {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: #ffffffab;
+}
