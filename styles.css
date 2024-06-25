@@ -30,6 +30,10 @@ label {
  
 }
 
+img {
+  width: 150px;
+  height: 200px;
+}
 #singleHolder {
   position: absolute;
   left: 5%;
